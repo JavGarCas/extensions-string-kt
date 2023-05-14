@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Extensions Strings Kt Demo"
 include ':app'
+include ':extensions-string-kt'
