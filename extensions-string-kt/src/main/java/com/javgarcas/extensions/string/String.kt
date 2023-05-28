@@ -8,5 +8,5 @@ fun String.Companion.space() = " "
 
 fun String?.safeString() = this ?: String.empty()
 
-fun String.isValidEmail() = Pattern.compile(EMAIL_PATTERN).matcher(this).matches()
+fun String.isValidEmail(pattern: Pattern = Pattern.compile(EMAIL_PATTERN)) = pattern.matcher(this).matches()
 
